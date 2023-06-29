@@ -166,8 +166,8 @@ public class BasePage {
 
     @AfterClass
     public void tearDown() {
-        //driver.manage().deleteAllCookies();
-        //driver.quit();
+        driver.manage().deleteAllCookies();
+        driver.quit();
     }
 
 }
