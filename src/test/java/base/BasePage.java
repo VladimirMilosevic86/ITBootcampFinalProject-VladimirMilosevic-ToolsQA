@@ -80,7 +80,7 @@ public class BasePage {
         String link = element.getAttribute("src");
         URL imageURL = new URL(link);
         BufferedImage saveImage = ImageIO.read(imageURL);
-        String location = "C:\\Users\\drago\\Desktop\\";
+        String location = "C:\\Users\\HP\\Desktop\\";
         ImageIO.write(saveImage, "png", new File(location + System.currentTimeMillis() + ".png"));
     }
 
