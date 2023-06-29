@@ -41,9 +41,6 @@ public class DatePickerPage extends BasePage {
         select.selectByValue("1986");
     }*/
 
-
-
-
     public void selectDate(int mm, int dd, int y) {
         //this will select month
         Select selectMonth = new Select(month);
