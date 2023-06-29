@@ -47,15 +47,6 @@ public class TestAlertsFrameWindows extends BasePage {
         Assert.assertEquals(browserWindowsPage.actualSampleHeading(), expectedSampleHeading);
     }
 
-    /*@Description("Verify that a user can read the message from the new window that opens")
-    @Test
-    public void newWindowMessageTest() {
-        sidePannelPage.clickOnBrowserWindowsItem();
-        browserWindows.clickOnNewWindowMessageButton();
-        browserWindows.switchToTheNewWindow();
-        System.out.println(browserWindows.actualMessage());
-    }*/
-
     @Description("Verify that a user can see alert after they click on \"Click Me\" button")
     @Test (groups = {"Alerts"})
     public void userCanSeeAlert() {

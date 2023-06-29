@@ -42,7 +42,6 @@ public class TestWidgets extends BasePage {
     @Test
     public void userCanMoveSlider() {
         sidePannelPage.clickOnSliderItem();
-        //System.out.println(sliderPage.getSliderValue());
         sliderPage.increaseSliderValue(25);
     }
 
